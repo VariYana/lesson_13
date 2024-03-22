@@ -1,0 +1,18 @@
+.animated {
+  animation: changeColors 3s infinite;
+}
+
+@keyframes changeColors {
+
+  0%,
+  100% {
+    stroke: rgb(59, 59, 173);
+    fill: rgb(71, 199, 216);
+  }
+
+  50% {
+    stroke: rgb(244, 92, 92);
+    fill: rgb(250, 253, 70);
+  }
+
+}
